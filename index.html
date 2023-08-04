@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Інтерактивна секція з відео</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="interactive-section">
+        <div class="interactive-section__links links">
+          <a href="#" class="links__item links__item_active" data-video-id="L54l4KXzlPE">Відео про Запоріжжя</a>
+          <a href="#" class="links__item" data-video-id="Z3Hhtam-dmo">Відео про Київ</a>
+          <!-- Добавьте дополнительные ссылки на видео по необходимости -->
+        </div>
+        <div class="interactive-section__video-player video-player">
+          <iframe id="youtube-player" width="560" height="315" src="https://www.youtube.com/embed/YOUR_DEFAULT_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+          <div class="video-player__description video-description">
+            <h2 class="video-description__title" id="video-title">Описание видео</h2>
+            <p class="video-description__info" id="video-info">Выберите видео для просмотра.</p>
+          </div>
+        </div>
+      </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
